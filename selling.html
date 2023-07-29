@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="x-icon" href="Images/Pluga Logo3.png">
+	<title>selling-page</title>
+	<link rel="stylesheet" href="pluga.css" />
+	<!-- Font Awesome icon cdn -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+	integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<script src="https://kit.fontawesome.com/61003df5a9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <style>
+    .share-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 14px;
+      cursor: pointer;
+      display: inline-block;
+      align-self: left;
+      margin-right: 70%;
+      margin-bottom: 10%;
+    }
+
+    .social-platforms {
+      display: none;
+    }
+
+    .social-platforms.show {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .social-platforms a {
+      margin: 8px;
+      color: white;
+      font-size: 30px;
+    }
+  </style>
+    <script>
+    function showSocialPlatforms() {
+      const socialPlatforms = document.querySelector('.social-platforms');
+      socialPlatforms.classList.toggle('show');
+    }
+
+    function shareLink(platform) {
+      var linkToShare = "https://tanele-pluga.netlify.app/selling.html"; // Replace with your link to share
+      var socialUrl;
+
+      if (platform === 'facebook') {
+        socialUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(linkToShare);
+      } else if (platform === 'instagram') {
+        socialUrl = 'https://www.instagram.com/share?url=' + encodeURIComponent(linkToShare);
+      } else if (platform === 'email') {
+        socialUrl = 'mailto:?body=' + encodeURIComponent(linkToShare);
+      } else if (platform === 'whatsapp') {
+        socialUrl = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(linkToShare);
+      }
+
+      window.open(socialUrl, '_blank');
+    }
+  </script>
+
+</head>
+<body>
+
+
+	<div class="wrapper">
+		<div class="page">
+	<div class="cover" style="height: auto; width: auto; background-color: transparent; border-radius: 95px; margin-top: 20px;">
+		</div>
+
+			<div class="buttons" style="text-align: center;">
+				<button onclick="window.location.href='gallery.html';">
+					<i class="fa-solid fa-image"></i>Gallery
+				</button>
+
+			<button onclick="window.location.href='index.html';">
+					<i class="fa-solid fa-house"></i>Home
+				</button>
+			</div>
+			<hr>
+			
+				
+
+<div class="selection-links" style="align-items: center;">
+  <div class="link new-link" style="text-align: center;">
+<div class="items" style="text-align: center;">
+
+
+<h3 style="text-align: center; color: black; margin-bottom: 5px;">SERVICES</h3>
+
+<div class="share-button" onclick="showSocialPlatforms()"><i class="fas fa-share"></i>Share Plug</div>
+  <div class="social-platforms">
+    <a href="https://tanele-pluga.netlify.app/selling.html" onclick="shareLink('facebook')"><i class="fab fa-facebook" style="color: blue"></i></a>
+    <a href="https://tanele-pluga.netlify.app/selling.html" onclick="shareLink('instagram')"><i class="fab fa-instagram" style="color: purple;"></i></a>
+    <a href="https://tanele-pluga.netlify.app/selling.html" onclick="shareLink('email')"><i class="fas fa-envelope" style="color: red"></i></a>
+    <a href="https://tanele-pluga.netlify.app/selling.html" onclick="shareLink('whatsapp')"><i class="fab fa-whatsapp" style="color: green"></i></a>
+  </div>
+</div>
+
+
+<div class="gallaries" style="text-align: center;">
+
+  <p>Psychological services are an integral component for employee wellness, individual well-being, coping with life challenges and treating mental health disorders. We are able to assess, intervene and refer for various psychological symptoms across the life span and we offer the following: 
+     <br><br>
+°   Individual Adult and Adolescent Therapy.
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Individual Adult and Adolescent Therapy')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+     <br>
+°   Couples Therapy.
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Couples Therapy')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+     <br>
+°   Group Therapy.
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Group Therapy')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+     <br>
+°   Trauma Debriefing.
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Trauma Debriefing')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+     <br>
+°   Life Coaching/ Personal Development.
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Life Coaching/ Personal Development')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+</p>
+<br><br>
+
+
+<h2 style="text-align: center;">Psychosocial Program Support</h2>
+<p>
+Organisations/ institutions may require additional support and training when implementing and evaluating psychosocial programs. With my combined experience of working in military and law enforcement settings, organisations, institutions and within community environments enables us to provide tailor made programs, on-going support and training for such.
+
+This can include but is not limited to: 
+<br><br>
+°   Needs Assessment.
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Needs Assessment')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Program Design.
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Program Design')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Clinical Supervision for Mental Health Workers.
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Clinical Supervision for Mental Health Workers')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Monitoring and Evaluation.
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Monitoring and Evaluation')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+
+</p>
+<br><br>
+
+
+
+<h2 style="text-align: center;">Employee Wellness Programs</h2>
+<p>A healthy workforce is a productive workforce hence I believe wellness should be a priority for all corporate entities. I provide needs analysis to organisations’ wellness needs and tailor wellness programs to suit the specific challenges and requirements of each client’s needs. My wellness interventions include employee assistance programs and wellness days that provide hands- on support and are targeted at dealing with health issues on an individual, group and or organisational level for transformed workplace health and happiness.
+</p>
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Employee Wellness Programs')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br><br>
+
+
+<h2 style="text-align: center;">Training & Development</h2>
+<p>The field of Human Capital Development recognises the importance of development and growth of people in organisations for future business success and sustainability. I strive to provide rigorous training and development initiatives in order to improve employee performance by strengthening development areas, as well as leveraging on employee strengths. My training and development initiatives addresses skills gaps and play a vital role in change management, thus capacitating employees to perform optimally in their positions and adapting to changes therein (short-term), as well as equipping them to fulfil future roles (long-term i.e. succession planning). As a result, I provide courses/workshops and presentations on various psycho-education and interpersonal skills topics including the following:
+<br><br>
+°   Motivational Speaker session
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Motivational Speaker session')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Primary & Secondary School Talks
+<div class="content-btn">
+<button onclick="copyToWhatsApp('School Talks')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+°   Substance Abuse
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Substance Abuse')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Stress Management
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Stress Management')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Emotional Intelligence
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Emotional Intelligence')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Conflict Management
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Conflict Management')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Communication/Assetiveness Skills
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Communication/Assetiveness Skills')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Problem Solving in Teams
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Problem Solving in Teams')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Leadership Skills
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Leadership Skills')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Time Management Skills
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Time Management Skills')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Interview Coaching
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Interview Coaching')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+
+°   Gender based Violence
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Gender based Violence')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Bullying
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Bullying')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   self-esteem
+<div class="content-btn">
+<button onclick="copyToWhatsApp('self-esteem',)" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Dealing with loss
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Dealing with loss')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Parenting
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Parenting')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Body image
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Body image')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Exam stress
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Exam stress')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Wellness facilitation on educators and workers
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Wellness facilitation on educators and workers')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Teen groups (different topics)
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Teen groups (different topics)')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+</p>
+<br><br>
+
+
+
+<h2 style="text-align: center;">Other Development Initiatives</h2>
+<br><br>
+<p>°   Leadership Development Programs
+    <br>
+ - Targeting existing and potential leaders
+ <div class="content-btn">
+<button onclick="copyToWhatsApp('Leadership Development Programs')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Individual Development Plans
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Individual Development Plans')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+°   Team Building
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Team Building')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+<br>
+- Optimising team performance and harnessing group dynamics
+<div class="content-btn">
+<button onclick="copyToWhatsApp('Optimising team performance and harnessing group dynamics')" style="width:auto; background: white; color: black; margin-bottom: 6px">Inquire</button>
+    </div>
+</p>
+<br><br>
+   
+<script>
+  function copyToWhatsApp(productName, price, imageSrc) {
+    // Format the message with product name and price as caption of the image
+    const message = `Hi there🙂 I need the service dealing with :${productName}`;
+    
+    // Encode the message to handle special characters and spaces
+    const encodedMessage = encodeURIComponent(message);
+    
+    // Open WhatsApp API with the formatted message
+    window.open(`https://api.whatsapp.com/send?phone=+27793795379&text=${encodedMessage}`);
+  }
+</script>
+
+
+<button onclick="window.location.href='index.html';" style="text-align: center;">
+					<i class="fa-solid fa-house"></i>Home
+				</button>
+</div>
+<div>
+<img src="Images/Pluga Logo3.png" style="text-align: center; width: 40px; height: auto; margin-top: 15px; margin-left: 49%">
+</div>
+<iframe id=""src="" frameborder="0"></iframe>
+<div class="widget" style="font-size: 7px; margin-top: 70px;">
+                    <ul class="style2">
+                      <li><a href="https://www.termsfeed.com/live/1ab1c651-5b25-43e4-8812-d7e8658a1dd3">Privacy Policy</a></li>
+                      <li><a href="https://www.termsfeed.com/live/07228ddf-8948-43c8-8992-679d5a7536e2">terms</a></li>
+                    </ul>
+                  </div>
+    </div>
+
+
+	<footer>
+<div class="outer-footer">
+    Copyright &copy; 2023 @Blossom Velder pty, Ltd. All Rigths Reserved
+  </div>
+  	</div>				
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+<script src="pluga.js"></script>
+</body>
+</html>
