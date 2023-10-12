@@ -27,7 +27,7 @@ body{
 	/* height: 680px; */
 	margin: auto;
 	border-radius: 100px;
-	border: 5px solid darkgray;
+	border: 0px solid darkgray;
 }
 .cover{
 	height: 100%;
@@ -210,7 +210,7 @@ h2{
 	font-weight: bolder;
 	background-color: white;
 	font-size: 25px;
-	border: 2px solid darkgray;
+	border: 0px solid darkgray;
 	margin: 10px;
 }
 
@@ -227,7 +227,7 @@ p{
 	align-content: center;
 	text-align: center;
 	background: white;
-	border: 2px solid darkgray;
+	border: 0px solid darkgray;
 	color: black;
 	border-radius: 55px;
 	text-decoration: none;
